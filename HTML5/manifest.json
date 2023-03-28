@@ -56,6 +56,6 @@
 		{ "src":"/tetris/HTML5/images/YesTextBlack_Image.png", "id":"YesTextBlack_Image", "type":"image" },
 		{ "src":"/tetris/HTML5/images/YesText_Image.png", "id":"YesText_Image", "type":"image" },
 		
-		{ "src":"resource.js", "type":"javascript" }
+		{ "src":"./resource.js", "type":"javascript" }
 	]
 }
