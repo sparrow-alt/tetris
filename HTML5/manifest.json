@@ -14,11 +14,11 @@
 		{ "src":"/tetris/JavaScript/HTML5/echalk/controls/controls.js", "type":"javascript" },
 		{ "src":"/tetris/JavaScript/HTML5/echalk/media/media.js", "type":"javascript" },
 		
-		{ "id":"sndSwitchToggle", "src":"sounds/SwitchToggle.ogg", "type":"sound" },
-		{ "id":"sndGameOver", "src":"sounds/gameOver.ogg", "type":"sound" },
-		{ "id":"sndCompleteLine", "src":"sounds/winUp.ogg", "type":"sound" },
-		{ "id":"sndRotatePop", "src":"sounds/popHi.ogg", "type":"sound" },
-		{ "id":"sndHitBottom", "src":"sounds/popLo.ogg", "type":"sound" },
+		{ "id":"sndSwitchToggle", "src":"/tetris/sounds/SwitchToggle.ogg", "type":"sound" },
+		{ "id":"sndGameOver", "src":"/tetris/sounds/gameOver.ogg", "type":"sound" },
+		{ "id":"sndCompleteLine", "src":"/tetris/sounds/winUp.ogg", "type":"sound" },
+		{ "id":"sndRotatePop", "src":"/tetris/sounds/popHi.ogg", "type":"sound" },
+		{ "id":"sndHitBottom", "src":"/tetris/sounds/popLo.ogg", "type":"sound" },
 
 		{ "src":"/tetris/images/BackgroundStripes_Image.png", "id":"BackgroundStripes_Image", "type":"image" },
 		{ "src":"/tetris/images/BangSquare_Image.png", "id":"BangSquare_Image", "type":"image" },
