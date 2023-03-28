@@ -1,4 +1,7 @@
 (function() {
+    console.log("ldr load")
+})
+(function() {
     var _0x4771x1 = function() {
         this['initListeners']()
     };
