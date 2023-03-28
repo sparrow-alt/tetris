@@ -242,7 +242,7 @@
         this['queue']['on']('progress', this['ldr_progressChange'], this);
         this['queue']['on']('error', this['ldr_loadError'], this);
         if (_0x4771x1a) {
-            $['getScript']('/JavaScript/CreateJS/soundjs-0.6.2.min.js', function() {
+            $['getScript']('/tetris/JavaScript/CreateJS/soundjs-0.6.2.min.js', function() {
                 try {
                     if (createjs['Sound']['initializeDefaultPlugins']()) {
                         createjs['Sound']['alternateExtensions'] = ['mp3'];
