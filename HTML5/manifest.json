@@ -14,11 +14,11 @@
 		{ "src":"/tetris/JavaScript/HTML5/echalk/controls/controls.js", "type":"javascript" },
 		{ "src":"/tetris/JavaScript/HTML5/echalk/media/media.js", "type":"javascript" },
 		
-		{ "id":"sndSwitchToggle", "src":"/tetris/HTML5/sounds/SwitchToggle.ogg", "type":"sound" },
-		{ "id":"sndGameOver", "src":"/tetris/HTML5/sounds/gameOver.ogg", "type":"sound" },
-		{ "id":"sndCompleteLine", "src":"/tetris/HTML5/sounds/winUp.ogg", "type":"sound" },
-		{ "id":"sndRotatePop", "src":"/tetris/HTML5/sounds/popHi.ogg", "type":"sound" },
-		{ "id":"sndHitBottom", "src":"/tetris/HTML5/sounds/popLo.ogg", "type":"sound" },
+		{ "id":"sndSwitchToggle", "src":"/tetris/HTML5/sounds/SwitchToggle.ogm", "type":"sound" },
+		{ "id":"sndGameOver", "src":"/tetris/HTML5/sounds/gameOver.ogm", "type":"sound" },
+		{ "id":"sndCompleteLine", "src":"/tetris/HTML5/sounds/winUp.ogm", "type":"sound" },
+		{ "id":"sndRotatePop", "src":"/tetris/HTML5/sounds/popHi.ogm", "type":"sound" },
+		{ "id":"sndHitBottom", "src":"/tetris/HTML5/sounds/popLo.ogm", "type":"sound" },
 
 		{ "src":"/tetris/HTML5/images/BackgroundStripes_Image.png", "id":"BackgroundStripes_Image", "type":"image" },
 		{ "src":"/tetris/HTML5/images/BangSquare_Image.png", "id":"BangSquare_Image", "type":"image" },
