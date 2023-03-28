@@ -148,6 +148,7 @@
                     this['basePath'] = "https://sparrow-alt.github.io/tetris/HTML5"
                 }
             };
+            console.log("its gonna load the manfiest file");
             this['loadManifestFile']()
         } else {
             $('#canvas')['remove']();
@@ -162,28 +163,29 @@
     _0x4771x2['blnLoadError'] = false;
     _0x4771x2['queue'] = null;
     _0x4771x2['testLegitamacy'] = function() {
-        var _0x4771xf = new Array(new Array(101, 99, 104, 97, 108, 107, 46, 99, 111, 46, 117, 107), new Array(103, 105, 114, 108, 121, 45, 115, 119, 111, 116, 46, 99, 111, 109), new Array(103, 105, 114, 108, 121, 45, 115, 119, 111, 116, 46, 99, 111, 46, 117, 107), new Array(108, 117, 109, 112, 116, 121, 46, 99, 111, 109), new Array(105, 110, 115, 101, 116, 45, 111, 110, 108, 105, 110, 101, 46, 99, 111, 109), new Array(105, 110, 115, 101, 116, 45, 111, 110, 108, 105, 110, 101, 46, 99, 111, 46, 117, 107), new Array(115, 116, 101, 109, 103, 101, 101, 107, 46, 99, 111, 109), new Array(115, 116, 101, 109, 103, 101, 101, 107, 46, 99, 111, 46, 117, 107));
-        var _0x4771x10 = location['host'];
-        if (typeof _0x4771x10 === 'undefined') {
-            _0x4771x10 = ''
-        };
-        var _0x4771x11 = false;
-        var _0x4771x12 = 0;
-        for (var _0x4771x13 = 0; _0x4771x13 < _0x4771xf['length']; _0x4771x13++) {
-            var _0x4771x14 = _0x4771xf[_0x4771x13];
-            var _0x4771x15 = '';
-            for (var _0x4771x16 = 0; _0x4771x16 < _0x4771x14['length']; _0x4771x16++) {
-                _0x4771x15 += String['fromCharCode'](_0x4771x14[_0x4771x16])
-            };
-            _0x4771x12 = _0x4771x10['lastIndexOf'](_0x4771x15);
-            if (_0x4771x12 != -1) {
-                if (_0x4771x12 == _0x4771x10['length'] - _0x4771x15['length']) {
-                    _0x4771x11 = true;
-                    break
-                }
-            }
-        };
-        return _0x4771x11
+        // var _0x4771xf = new Array(new Array(101, 99, 104, 97, 108, 107, 46, 99, 111, 46, 117, 107), new Array(103, 105, 114, 108, 121, 45, 115, 119, 111, 116, 46, 99, 111, 109), new Array(103, 105, 114, 108, 121, 45, 115, 119, 111, 116, 46, 99, 111, 46, 117, 107), new Array(108, 117, 109, 112, 116, 121, 46, 99, 111, 109), new Array(105, 110, 115, 101, 116, 45, 111, 110, 108, 105, 110, 101, 46, 99, 111, 109), new Array(105, 110, 115, 101, 116, 45, 111, 110, 108, 105, 110, 101, 46, 99, 111, 46, 117, 107), new Array(115, 116, 101, 109, 103, 101, 101, 107, 46, 99, 111, 109), new Array(115, 116, 101, 109, 103, 101, 101, 107, 46, 99, 111, 46, 117, 107));
+        // var _0x4771x10 = location['host'];
+        // if (typeof _0x4771x10 === 'undefined') {
+        //     _0x4771x10 = ''
+        // };
+        // var _0x4771x11 = false;
+        // var _0x4771x12 = 0;
+        // for (var _0x4771x13 = 0; _0x4771x13 < _0x4771xf['length']; _0x4771x13++) {
+        //     var _0x4771x14 = _0x4771xf[_0x4771x13];
+        //     var _0x4771x15 = '';
+        //     for (var _0x4771x16 = 0; _0x4771x16 < _0x4771x14['length']; _0x4771x16++) {
+        //         _0x4771x15 += String['fromCharCode'](_0x4771x14[_0x4771x16])
+        //     };
+        //     _0x4771x12 = _0x4771x10['lastIndexOf'](_0x4771x15);
+        //     if (_0x4771x12 != -1) {
+        //         if (_0x4771x12 == _0x4771x10['length'] - _0x4771x15['length']) {
+        //             _0x4771x11 = true;
+        //             break
+        //         }
+        //     }
+        // };
+        // return _0x4771x11
+        return true;
     };
     _0x4771x2['ldr_fileLoad'] = function(_0x4771x3) {
         if (_0x4771x3['item']['type'] == createjs['LoadQueue']['JAVASCRIPT']) {
